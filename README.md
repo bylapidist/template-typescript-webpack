@@ -1,7 +1,5 @@
 # @lapidist/template-typescript-webpack
 
-![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@lapidist/template-typescript-webpack)
-[![npm](https://img.shields.io/npm/v/@lapidist/template-typescript-webpack)](https://www.npmjs.com/package/@lapidist/template-typescript-webpack)
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/bylapidist/template-typescript-webpack/dev/typescript)
 [![codecov](https://codecov.io/gh/bylapidist/template-typescript-webpack/branch/master/graph/badge.svg)](https://codecov.io/gh/bylapidist/template-typescript-webpack)
 [![Maintainability](https://api.codeclimate.com/v1/badges/d28f67acb582d5705333/maintainability)](https://codeclimate.com/github/bylapidist/template-typescript-webpack/maintainability)
