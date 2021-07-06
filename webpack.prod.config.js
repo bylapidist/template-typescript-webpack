@@ -32,7 +32,6 @@ module.exports = {
     bail: true,
     output: {
         filename: '[name].[contenthash].min.js',
-        publicPath: '/',
         path: paths.dist
     },
     resolve: {
