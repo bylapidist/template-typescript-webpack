@@ -36,35 +36,35 @@
         "prepublishOnly": "npm run build"
     },
     "dependencies": {
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2"
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
     },
     "devDependencies": {
         "@lapidist/linting": "2.114.1",
         "@testing-library/jest-dom": "5.14.1",
-        "@testing-library/react": "^12.0.0",
+        "@testing-library/react": "12.0.0",
         "@types/jest": "26.0.23",
-        "@types/react": "^17.0.13",
-        "@types/react-dom": "^17.0.8",
+        "@types/react": "17.0.13",
+        "@types/react-dom": "17.0.8",
         "circular-dependency-plugin": "5.2.2",
-        "clean-webpack-plugin": "^4.0.0-alpha.0",
-        "copy-webpack-plugin": "^9.0.1",
+        "clean-webpack-plugin": "4.0.0-alpha.0",
+        "copy-webpack-plugin": "9.0.1",
         "cross-env": "7.0.3",
-        "html-webpack-plugin": "^5.3.2",
+        "html-webpack-plugin": "5.3.2",
         "husky": "7.0.1",
         "jest": "27.0.6",
         "lint-staged": "11.0.0",
         "process": "0.11.10",
         "rimraf": "3.0.2",
         "source-map-loader": "3.0.0",
-        "terser-webpack-plugin": "^5.1.4",
+        "terser-webpack-plugin": "5.1.4",
         "ts-jest": "27.0.3",
         "ts-loader": "9.2.3",
         "typescript": "4.3.5",
         "webpack": "5.42.1",
         "webpack-bundle-analyzer": "4.4.2",
         "webpack-cli": "4.7.2",
-        "webpack-dev-server": "^3.11.2"
+        "webpack-dev-server": "3.11.2"
     },
     "engines": {
         "node": ">=14.0.0"
