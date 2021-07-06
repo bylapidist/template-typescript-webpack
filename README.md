@@ -3,7 +3,6 @@
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/bylapidist/template-typescript-webpack/dev/typescript)
 [![codecov](https://codecov.io/gh/bylapidist/template-typescript-webpack/branch/master/graph/badge.svg)](https://codecov.io/gh/bylapidist/template-typescript-webpack)
 [![Maintainability](https://api.codeclimate.com/v1/badges/d28f67acb582d5705333/maintainability)](https://codeclimate.com/github/bylapidist/template-typescript-webpack/maintainability)
-[![Node](https://img.shields.io/node/v/@lapidist/template-typescript-webpack)](https://www.npmjs.com/package/@lapidist/components)
 [![GitHub Issues](https://img.shields.io/github/issues/bylapidist/template-typescript-webpack.svg?style=flat)](https://github.com/bylapidist/template-typescript-webpack/issues)
 ![GitHub](https://img.shields.io/github/license/bylapidist/template-typescript-webpack)
 [![GitHub Release](https://img.shields.io/github/release/bylapidist/template-typescript-webpack.svg?style=flat)](https://github.com/bylapidist/template-typescript-webpack/releases)
