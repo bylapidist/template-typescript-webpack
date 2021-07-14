@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const TerserPlugin = require('terser-webpack-plugin');
+const { ESBuildMinifyPlugin } = require('esbuild-loader');
 
 const paths = {
     entry: path.resolve(__dirname, 'src/index.tsx'),
@@ -20,12 +20,8 @@ module.exports = {
             chunks: 'initial'
         },
         minimizer: [
-            new TerserPlugin({
-                test: /\.js?$/,
-                parallel: true,
-                terserOptions: {
-                    mangle: true
-                }
+            new ESBuildMinifyPlugin({
+                target: 'es2015'
             })
         ]
     },
@@ -47,7 +43,11 @@ module.exports = {
             {
                 test: /\.tsx?$/,
                 exclude: /node_modules/,
-                loader: 'ts-loader'
+                loader: 'esbuild-loader',
+                options: {
+                    loader: 'tsx',
+                    target: 'es2015'
+                }
             },
             {
                 test: /\.js$/,
