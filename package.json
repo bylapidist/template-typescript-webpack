@@ -44,7 +44,7 @@
         "@testing-library/jest-dom": "5.15.0",
         "@testing-library/react": "12.1.2",
         "@types/jest": "27.0.2",
-        "@types/react": "17.0.34",
+        "@types/react": "17.0.35",
         "@types/react-dom": "17.0.11",
         "circular-dependency-plugin": "5.2.2",
         "clean-webpack-plugin": "4.0.0",
