@@ -48,7 +48,7 @@
         "@types/react-dom": "17.0.11",
         "circular-dependency-plugin": "5.2.2",
         "clean-webpack-plugin": "4.0.0",
-        "copy-webpack-plugin": "10.2.3",
+        "copy-webpack-plugin": "10.2.4",
         "cross-env": "7.0.3",
         "css-loader": "6.5.1",
         "esbuild-loader": "2.18.0",
