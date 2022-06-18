@@ -40,7 +40,7 @@
         "react-dom": "18.2.0"
     },
     "devDependencies": {
-        "@lapidist/linting": "2.133.2",
+        "@lapidist/linting": "2.134.1",
         "@testing-library/jest-dom": "5.16.4",
         "@testing-library/react": "13.3.0",
         "@types/jest": "28.1.2",
