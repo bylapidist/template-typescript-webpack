@@ -92,12 +92,12 @@ module.exports = {
         ]
     },
     plugins: [
-        new webpack.HotModuleReplacementPlugin(),
         new HtmlWebpackPlugin({
             title: 'App',
             filename: 'index.html',
             template: 'public/index.html',
-            inject: 'body'
+            inject: 'body',
+            baseUrl: '/'
         }),
         new CopyWebpackPlugin({
             patterns: [

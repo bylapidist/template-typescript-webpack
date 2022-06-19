@@ -69,6 +69,9 @@ node_modules/
 # built components
 dist/
 
+# built storybook
+storybook-static/
+
 # coverage
 coverage/
 

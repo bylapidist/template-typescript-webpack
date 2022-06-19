@@ -6,3 +6,8 @@ test('renders', () => {
     const { container } = render(<App />);
     expect(container).toBeTruthy();
 });
+
+test('renders hello world', () => {
+    const { getByText } = render(<App />);
+    expect(getByText('Hello world!')).toBeTruthy();
+});
