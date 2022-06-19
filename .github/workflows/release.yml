@@ -36,6 +36,9 @@ jobs:
             - name: Run build
               run: npm run build
 
+            - name: Run build-storybook
+              run: npm run build:storybook
+
             - name: Upload coverage to Codecov
               uses: codecov/codecov-action@v3
               with:
