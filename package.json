@@ -44,7 +44,7 @@
         "styled-components": "5.3.5"
     },
     "devDependencies": {
-        "@lapidist/linting": "2.134.1",
+        "@lapidist/linting": "2.134.2",
         "@storybook/addon-actions": "6.5.9",
         "@storybook/addon-essentials": "6.5.9",
         "@storybook/addon-links": "6.5.9",
