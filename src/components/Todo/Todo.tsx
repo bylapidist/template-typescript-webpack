@@ -1,5 +1,5 @@
 import React, { ChangeEvent, FormEvent, useState } from 'react';
-import { Box, Button, ButtonGroup, Panel } from '@lapidist/components';
+import { Box, Button, Panel } from '@lapidist/components';
 
 export type TodoProps = {
     id: string;
@@ -49,12 +49,11 @@ const Todo = ({
                     onChange={handleChange}
                 />
             </Box>
-            <ButtonGroup>
+            <Box>
                 <Button
                     type="button"
                     kind="secondary"
                     variant="small"
-                    ghost
                     onClick={() => setIsEditing(false)}
                 >
                     Cancel
@@ -67,7 +66,7 @@ const Todo = ({
                 >
                     Save
                 </Button>
-            </ButtonGroup>
+            </Box>
         </form>
     );
 
@@ -82,7 +81,7 @@ const Todo = ({
                 />
                 <label htmlFor={id}>{name}</label>
             </Box>
-            <ButtonGroup>
+            <Box>
                 <Button
                     data-testid="EditButton"
                     type="button"
@@ -102,12 +101,12 @@ const Todo = ({
                 >
                     Delete
                 </Button>
-            </ButtonGroup>
+            </Box>
         </Box>
     );
 
     return (
-        <Panel kind="grey" data-testid="Todo">
+        <Panel data-testid="Todo">
             {isEditing ? <EditTodo /> : <ViewTodo />}
         </Panel>
     );
