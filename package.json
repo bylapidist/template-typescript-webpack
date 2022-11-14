@@ -56,7 +56,7 @@
         "@testing-library/react": "13.4.0",
         "@types/jest": "29.2.2",
         "@types/react": "18.0.21",
-        "@types/react-dom": "18.0.6",
+        "@types/react-dom": "18.0.9",
         "circular-dependency-plugin": "5.2.2",
         "clean-webpack-plugin": "4.0.0",
         "copy-webpack-plugin": "11.0.0",
